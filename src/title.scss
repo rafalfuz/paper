@@ -1,20 +1,27 @@
 .title {
     display: flex;
     align-items: center;
+    height: 100%;
+    border-bottom: 5px solid gray;
 
     &__title {
         flex-basis: 100%;
-        font-size: 1.2em;
+        font-size: 3em;
         margin: 0 auto;
-        border-bottom: 3px solid gray;
+        text-align: center;
     }
 
     &__title span {
         display: inline-block;
-        font-size: 10px;
+        font-size: .5rem;
         vertical-align: middle;
-
-        ;
     }
 
+    &__title span:nth-child(1) {
+        margin-right: 70px;
+    }
+
+    &__title span:nth-child(2) {
+        margin-left: 70px;
+    }
 }

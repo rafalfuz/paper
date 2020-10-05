@@ -1,0 +1,25 @@
+.rubric {
+
+    &--red {
+        color: crimson;
+    }
+
+
+    &__title {
+        font-size: 1.4em;
+        font-style: italic;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    &__title--red {
+        color: red;
+    }
+
+    &__text {
+        text-align: left;
+        font-size: .6em;
+        margin: 10px auto 0 20px;
+    }
+
+}

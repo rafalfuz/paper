@@ -1,0 +1,25 @@
+.main {
+
+    &__title {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border-bottom: 2px solid black;
+        ;
+        font-size: 1.4em;
+        font-style: italic;
+        text-align: center;
+    }
+
+    &__text {
+        text-align: left;
+        font-size: .7em;
+        margin: 10px auto 0 20px;
+    }
+
+    &__text span {
+        color: crimson;
+        font-style: italic;
+
+    }
+
+}
