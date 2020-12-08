@@ -1,5 +1,6 @@
 import React from "react";
 import image from "./img/placeimg_400_600_grayscale_people.jpg";
+import './photo.scss'
 
 const Photo = () => {
   return (
